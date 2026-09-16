@@ -1,0 +1,16 @@
+# Local dependencies and Cloudflare tooling
+node_modules/
+.wrangler/
+
+# Local secrets
+.dev.vars
+.env
+.env.*
+!.env.example
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Local deployment notes
+instruction.md
