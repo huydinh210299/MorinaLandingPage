@@ -3,7 +3,7 @@ const EXCLUDED_ACCESSORY_CODES = new Set(["VA", "VH", "VT"]);
 const FEATURED_DRESS_CODES = ["VD34", "AD38", "AD35", "AD40", "VD82"];
 const CATEGORIES = [
   { code: "ALL", name: "Tất cả" },
-  { code: "AD", name: "Áo dài" },
+  { code: "AD", name: "Áo dài - Áo yếm" },
   { code: "AL", name: "Áo lụa" },
   { code: "CB", name: "Chấm bi" },
   { code: "G", name: "Giày" },

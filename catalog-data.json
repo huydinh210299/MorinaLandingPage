@@ -1,10 +1,465 @@
 {
-  "generatedAt": "2026-09-15T12:19:32.242Z",
+  "generatedAt": "2026-09-16T16:20:13.893Z",
   "excludedDressCodes": [
     "VN01",
     "VN04"
   ],
+  "excludedAccessoryCodes": [
+    "VA",
+    "VH",
+    "VT"
+  ],
   "dressProducts": [
+    {
+      "code": "AD01",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1vRZXToPcbl1RV2XAnpkKtU42sWfWcB4m&sz=w1000",
+      "sixHPrice": 79000,
+      "fullDayPrice": 110000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD02",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1uYXFoKnxKU4zoIQcfZSRf9IIA4QmnMce&sz=w1000",
+      "sixHPrice": 79000,
+      "fullDayPrice": 110000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD03",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1nBN43_NzfW-6neTCwWlv6YwkgpzovW_j&sz=w1000",
+      "sixHPrice": 69000,
+      "fullDayPrice": 95000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD04",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1OHP869SQWbjwEhT1muO-TZSzXyFH-aN0&sz=w1000",
+      "sixHPrice": 75000,
+      "fullDayPrice": 115000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD05",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1SpC6dVSlp5njxVYTxuCqcp0-gj2eaXCU&sz=w1000",
+      "sixHPrice": 99000,
+      "fullDayPrice": 135000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD06",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1o6LhB72857-U0R2Nh0RkVAV0AmeQo7km&sz=w1000",
+      "sixHPrice": 70000,
+      "fullDayPrice": 100000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD07",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1DwCr2zbxV0MC4iqLuDpfu8oaSU8EV3FD&sz=w1000",
+      "sixHPrice": 85000,
+      "fullDayPrice": 120000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD08",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=19bmDtdby6bF1EhN8S8j53snWSYkj67kT&sz=w1000",
+      "sixHPrice": 65000,
+      "fullDayPrice": 90000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD09",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1lPhQiVOD8RFmFqqVxuWA84tOX-wbsf2G&sz=w1000",
+      "sixHPrice": 65000,
+      "fullDayPrice": 90000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD10",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1iD3VyVwxGDfXSDSH1umTBCduxCAltNUp&sz=w1000",
+      "sixHPrice": 79000,
+      "fullDayPrice": 115000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD11",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1ZAkX5fgkndruUKTGp-AvDuEG5AdKwuuL&sz=w1000",
+      "sixHPrice": 79000,
+      "fullDayPrice": 115000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD12",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1HE9YkJBPqNgLO9OL95Q3Q-TKiM-Ahnyx&sz=w1000",
+      "sixHPrice": 79000,
+      "fullDayPrice": 115000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD13",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1WOepglKHGw1sjN1VZy4gjK-jsoBjCPJ_&sz=w1000",
+      "sixHPrice": 79000,
+      "fullDayPrice": 115000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD14",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1XkoRdFkUUeBws-yibq6aYP4nBYay1l8R&sz=w1000",
+      "sixHPrice": 79000,
+      "fullDayPrice": 115000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD15",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1Fj6Bh4LUFhG8HpvdAH2LjHmOupmdSIxW&sz=w1000",
+      "sixHPrice": 70000,
+      "fullDayPrice": 100000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD16",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1Oa5SDTAh18skoe1B12P3z5FUf_vuWIeN&sz=w1000",
+      "sixHPrice": 69000,
+      "fullDayPrice": 95000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD17",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1Gv82gE3wwUp1ijJymJWyPqDZIExTFOO9&sz=w1000",
+      "sixHPrice": 79000,
+      "fullDayPrice": 115000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD18",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=10tja4w--y4QzVF2pdtvmINpniTextBrf&sz=w1000",
+      "sixHPrice": 79000,
+      "fullDayPrice": 115000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD19",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1h8BybXXDAAxJ8mf8OnjDp5Eg1OJtiBUj&sz=w1000",
+      "sixHPrice": 79000,
+      "fullDayPrice": 115000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD20",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1EUGbP9jd7GeI5HQl2Dm5BhPyRExCAFap&sz=w1000",
+      "sixHPrice": 79000,
+      "fullDayPrice": 115000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD21",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1QbQ1vuPwOWhJIc1zHInDqCbhllUpgiqT&sz=w1000",
+      "sixHPrice": 79000,
+      "fullDayPrice": 115000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD22",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1BVyAeK59Ak95iJUnu-K3S6gkXY1geEaf&sz=w1000",
+      "sixHPrice": 79000,
+      "fullDayPrice": 115000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD23",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1jixhnsbEM2V0E_lcF4e5Bvb_us70andU&sz=w1000",
+      "sixHPrice": 79000,
+      "fullDayPrice": 115000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD24",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1MJHkyb9L02927H45Ztc8HS2GrYhBHUOG&sz=w1000",
+      "sixHPrice": 79000,
+      "fullDayPrice": 115000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD25",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1aG6w3tQRdrNnuM1sljSU8YoDCmKos8ij&sz=w1000",
+      "sixHPrice": 105000,
+      "fullDayPrice": 140000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD26",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1CNV_rMtyy0ZVz8686HCG4ycrRjhwdL6q&sz=w1000",
+      "sixHPrice": 99000,
+      "fullDayPrice": 135000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD27",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1uOWmPvhlQyBcVkdbjgbmvuIVDNQaDkRh&sz=w1000",
+      "sixHPrice": 99000,
+      "fullDayPrice": 135000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD28",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1CDJMfWd_R1Nt7Opvly9JiELoJ5BK2qI3&sz=w1000",
+      "sixHPrice": 99000,
+      "fullDayPrice": 135000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD29",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1tExfvPeFD8ziFe8yqNAr1v8K7M0Odlht&sz=w1000",
+      "sixHPrice": 99000,
+      "fullDayPrice": 135000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD30",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1C1fYESPFYEnMDuqdub7LcgYiopEyj7-n&sz=w1000",
+      "sixHPrice": 65000,
+      "fullDayPrice": 90000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD31",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1FhTvFQzVmVRdm9ZPjKWFb0CGCIzQb3HA&sz=w1000",
+      "sixHPrice": 65000,
+      "fullDayPrice": 90000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD32",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1xmNxE1i_f5_dmqd_wiPQqUbpwsTp7yzj&sz=w1000",
+      "sixHPrice": 65000,
+      "fullDayPrice": 90000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD33",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1dyjm7KBq9EshQrlE2KYf8OlomQedYr1H&sz=w1000",
+      "sixHPrice": 65000,
+      "fullDayPrice": 90000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD34",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1qpDmnFyHP4vJh4noU1mHJ-d6XzD5gL-J&sz=w1000",
+      "sixHPrice": 65000,
+      "fullDayPrice": 90000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD35",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1faiPm7IheBedVO8ZWrVYN37p1tUKF-2G&sz=w1000",
+      "sixHPrice": 135000,
+      "fullDayPrice": 180000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD36",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1DAAAbFj1vG7_66QLKX4cccKFYuOI8lzf&sz=w1000",
+      "sixHPrice": 100000,
+      "fullDayPrice": 135000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD37",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1yp7BSzjG-LZ7mz5Yu8EUty7MVY56EJOb&sz=w1000",
+      "sixHPrice": 100000,
+      "fullDayPrice": 135000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD38",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1nxBVENziMB58_hMZPmMmC8ayv0PI6MBH&sz=w1000",
+      "sixHPrice": 100000,
+      "fullDayPrice": 135000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD39",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1eQe7CE5DL4NffNZX3l0aeI1i79ocNmYG&sz=w1000",
+      "sixHPrice": 135000,
+      "fullDayPrice": 180000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD40",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1Rdv1XTPvWSes9iCpgZSENwijv_KLLEsT&sz=w1000",
+      "sixHPrice": 135000,
+      "fullDayPrice": 180000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD41",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1pnotHT97P3lhakc0CiV50RgBf74q-TIR&sz=w1000",
+      "sixHPrice": 90000,
+      "fullDayPrice": 125000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD42",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1jQTgOm7Bpmqsi5RTk6dtH7njro79L8hL&sz=w1000",
+      "sixHPrice": 105000,
+      "fullDayPrice": 140000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD43",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=17nQOsFVCwpDCI_znh0iScqNbIi17-Akh&sz=w1000",
+      "sixHPrice": 69000,
+      "fullDayPrice": 90000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD44",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1BVHgnqVc1m7ANbwWwNBkuhki4L51bgQM&sz=w1000",
+      "sixHPrice": 79000,
+      "fullDayPrice": 110000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD45",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1e0aTh0PinFEATjXvAS1B4VSsKL8wUC8p&sz=w1000",
+      "sixHPrice": 79000,
+      "fullDayPrice": 110000,
+      "size": "",
+      "isExcluded": false
+    },
     {
       "code": "CB01",
       "categoryCode": "CB",
@@ -326,402 +781,32 @@
       "isExcluded": false
     },
     {
-      "code": "AD01",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1vRZXToPcbl1RV2XAnpkKtU42sWfWcB4m&sz=w1000",
+      "code": "AL20",
+      "categoryCode": "AL",
+      "categoryName": "Áo lụa",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1GZ4LG_KfgQ2JYwIBM6wIphZobF3lkNG1&sz=w1000",
       "sixHPrice": 79000,
       "fullDayPrice": 110000,
       "size": "",
       "isExcluded": false
     },
     {
-      "code": "AD02",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1uYXFoKnxKU4zoIQcfZSRf9IIA4QmnMce&sz=w1000",
+      "code": "AL21",
+      "categoryCode": "AL",
+      "categoryName": "Áo lụa",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1WTh3eSoSQ___AV4Bdutu83fsqN07ZptJ&sz=w1000",
       "sixHPrice": 79000,
       "fullDayPrice": 110000,
       "size": "",
       "isExcluded": false
     },
     {
-      "code": "AD03",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1nBN43_NzfW-6neTCwWlv6YwkgpzovW_j&sz=w1000",
-      "sixHPrice": 69000,
-      "fullDayPrice": 95000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD04",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1OHP869SQWbjwEhT1muO-TZSzXyFH-aN0&sz=w1000",
-      "sixHPrice": 75000,
-      "fullDayPrice": 115000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD05",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1SpC6dVSlp5njxVYTxuCqcp0-gj2eaXCU&sz=w1000",
-      "sixHPrice": 99000,
-      "fullDayPrice": 135000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD06",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1o6LhB72857-U0R2Nh0RkVAV0AmeQo7km&sz=w1000",
-      "sixHPrice": 70000,
-      "fullDayPrice": 100000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD07",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1DwCr2zbxV0MC4iqLuDpfu8oaSU8EV3FD&sz=w1000",
-      "sixHPrice": 85000,
-      "fullDayPrice": 120000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD08",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=19bmDtdby6bF1EhN8S8j53snWSYkj67kT&sz=w1000",
-      "sixHPrice": 65000,
-      "fullDayPrice": 90000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD09",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1lPhQiVOD8RFmFqqVxuWA84tOX-wbsf2G&sz=w1000",
-      "sixHPrice": 65000,
-      "fullDayPrice": 90000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD10",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1iD3VyVwxGDfXSDSH1umTBCduxCAltNUp&sz=w1000",
+      "code": "AL22",
+      "categoryCode": "AL",
+      "categoryName": "Áo lụa",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1KswuU3gpZsJAa3PulfSYTqPqRpexN25_&sz=w1000",
       "sixHPrice": 79000,
-      "fullDayPrice": 115000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD11",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1ZAkX5fgkndruUKTGp-AvDuEG5AdKwuuL&sz=w1000",
-      "sixHPrice": 79000,
-      "fullDayPrice": 115000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD12",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1HE9YkJBPqNgLO9OL95Q3Q-TKiM-Ahnyx&sz=w1000",
-      "sixHPrice": 79000,
-      "fullDayPrice": 115000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD13",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1WOepglKHGw1sjN1VZy4gjK-jsoBjCPJ_&sz=w1000",
-      "sixHPrice": 79000,
-      "fullDayPrice": 115000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD14",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1XkoRdFkUUeBws-yibq6aYP4nBYay1l8R&sz=w1000",
-      "sixHPrice": 79000,
-      "fullDayPrice": 115000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD15",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1Fj6Bh4LUFhG8HpvdAH2LjHmOupmdSIxW&sz=w1000",
-      "sixHPrice": 70000,
-      "fullDayPrice": 100000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD16",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1Oa5SDTAh18skoe1B12P3z5FUf_vuWIeN&sz=w1000",
-      "sixHPrice": 69000,
-      "fullDayPrice": 95000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD17",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1Gv82gE3wwUp1ijJymJWyPqDZIExTFOO9&sz=w1000",
-      "sixHPrice": 79000,
-      "fullDayPrice": 115000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD18",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=10tja4w--y4QzVF2pdtvmINpniTextBrf&sz=w1000",
-      "sixHPrice": 79000,
-      "fullDayPrice": 115000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD19",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1h8BybXXDAAxJ8mf8OnjDp5Eg1OJtiBUj&sz=w1000",
-      "sixHPrice": 79000,
-      "fullDayPrice": 115000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD20",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1EUGbP9jd7GeI5HQl2Dm5BhPyRExCAFap&sz=w1000",
-      "sixHPrice": 79000,
-      "fullDayPrice": 115000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD21",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1QbQ1vuPwOWhJIc1zHInDqCbhllUpgiqT&sz=w1000",
-      "sixHPrice": 79000,
-      "fullDayPrice": 115000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD22",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1BVyAeK59Ak95iJUnu-K3S6gkXY1geEaf&sz=w1000",
-      "sixHPrice": 79000,
-      "fullDayPrice": 115000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD23",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1jixhnsbEM2V0E_lcF4e5Bvb_us70andU&sz=w1000",
-      "sixHPrice": 79000,
-      "fullDayPrice": 115000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD24",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1MJHkyb9L02927H45Ztc8HS2GrYhBHUOG&sz=w1000",
-      "sixHPrice": 79000,
-      "fullDayPrice": 115000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD25",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1aG6w3tQRdrNnuM1sljSU8YoDCmKos8ij&sz=w1000",
-      "sixHPrice": 105000,
-      "fullDayPrice": 140000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD26",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1CNV_rMtyy0ZVz8686HCG4ycrRjhwdL6q&sz=w1000",
-      "sixHPrice": 99000,
-      "fullDayPrice": 135000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD27",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1uOWmPvhlQyBcVkdbjgbmvuIVDNQaDkRh&sz=w1000",
-      "sixHPrice": 99000,
-      "fullDayPrice": 135000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD28",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1CDJMfWd_R1Nt7Opvly9JiELoJ5BK2qI3&sz=w1000",
-      "sixHPrice": 99000,
-      "fullDayPrice": 135000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD29",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1tExfvPeFD8ziFe8yqNAr1v8K7M0Odlht&sz=w1000",
-      "sixHPrice": 99000,
-      "fullDayPrice": 135000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD30",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1C1fYESPFYEnMDuqdub7LcgYiopEyj7-n&sz=w1000",
-      "sixHPrice": 65000,
-      "fullDayPrice": 90000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD31",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1FhTvFQzVmVRdm9ZPjKWFb0CGCIzQb3HA&sz=w1000",
-      "sixHPrice": 65000,
-      "fullDayPrice": 90000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD32",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1xmNxE1i_f5_dmqd_wiPQqUbpwsTp7yzj&sz=w1000",
-      "sixHPrice": 65000,
-      "fullDayPrice": 90000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD33",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1dyjm7KBq9EshQrlE2KYf8OlomQedYr1H&sz=w1000",
-      "sixHPrice": 65000,
-      "fullDayPrice": 90000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD34",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1qpDmnFyHP4vJh4noU1mHJ-d6XzD5gL-J&sz=w1000",
-      "sixHPrice": 65000,
-      "fullDayPrice": 90000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD35",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1faiPm7IheBedVO8ZWrVYN37p1tUKF-2G&sz=w1000",
-      "sixHPrice": 135000,
-      "fullDayPrice": 180000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD36",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1DAAAbFj1vG7_66QLKX4cccKFYuOI8lzf&sz=w1000",
-      "sixHPrice": 100000,
-      "fullDayPrice": 135000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD37",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1yp7BSzjG-LZ7mz5Yu8EUty7MVY56EJOb&sz=w1000",
-      "sixHPrice": 100000,
-      "fullDayPrice": 135000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD38",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1nxBVENziMB58_hMZPmMmC8ayv0PI6MBH&sz=w1000",
-      "sixHPrice": 100000,
-      "fullDayPrice": 135000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD39",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1eQe7CE5DL4NffNZX3l0aeI1i79ocNmYG&sz=w1000",
-      "sixHPrice": 135000,
-      "fullDayPrice": 180000,
-      "size": "",
-      "isExcluded": false
-    },
-    {
-      "code": "AD40",
-      "categoryCode": "AD",
-      "categoryName": "Áo dài",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1Rdv1XTPvWSes9iCpgZSENwijv_KLLEsT&sz=w1000",
-      "sixHPrice": 135000,
-      "fullDayPrice": 180000,
+      "fullDayPrice": 110000,
       "size": "",
       "isExcluded": false
     },
@@ -1566,6 +1651,26 @@
       "isExcluded": false
     },
     {
+      "code": "VD85",
+      "categoryCode": "VD",
+      "categoryName": "Váy dài",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1oJZJPsZz5E9UzTOLyjbGM1VndoMs5ebj&sz=w1000",
+      "sixHPrice": 135000,
+      "fullDayPrice": 180000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "VD86",
+      "categoryCode": "VD",
+      "categoryName": "Váy dài",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1raxwEY_dg5B9NqM7n8huHR7yYBYPzAZk&sz=w1000",
+      "sixHPrice": 175000,
+      "fullDayPrice": 250000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
       "code": "VN01",
       "categoryCode": "VN",
       "categoryName": "Váy ngắn",
@@ -1922,6 +2027,46 @@
       "imageUrl": "https://drive.google.com/thumbnail?id=1PRbXu5SYCKfMPkcHMMOfzmJc25hvHeeG&sz=w1000",
       "sixHPrice": 65000,
       "fullDayPrice": 90000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "VN37",
+      "categoryCode": "VN",
+      "categoryName": "Váy ngắn",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1XYTxexHXrw7BNZxe9JPY6GPxRh6MAeDw&sz=w1000",
+      "sixHPrice": 105000,
+      "fullDayPrice": 140000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "VN38",
+      "categoryCode": "VN",
+      "categoryName": "Váy ngắn",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1aAHH-qAn4uLwk4mpu3Gnuxbojn5ORyQP&sz=w1000",
+      "sixHPrice": 105000,
+      "fullDayPrice": 140000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "VN39",
+      "categoryCode": "VN",
+      "categoryName": "Váy ngắn",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1fZqJYXWRPIrSSk0-SfCjFI8lcs85PDiL&sz=w1000",
+      "sixHPrice": 110000,
+      "fullDayPrice": 150000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "VN40",
+      "categoryCode": "VN",
+      "categoryName": "Váy ngắn",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1fLb5fL4OUQp84gP0yYooWagGhn4jhGWv&sz=w1000",
+      "sixHPrice": 105000,
+      "fullDayPrice": 140000,
       "size": "",
       "isExcluded": false
     },
@@ -2392,6 +2537,36 @@
       "imageUrl": "https://drive.google.com/thumbnail?id=1yc-33zHudfE4SfYxksIGVLmiZ88NehjO&sz=w1000",
       "sixHPrice": 10000,
       "fullDayPrice": 10000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "T17",
+      "categoryCode": "T",
+      "categoryName": "Túi",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1pHLYnh-qskKSo9mmMdC0v_WTs188_kWp&sz=w1000",
+      "sixHPrice": 25000,
+      "fullDayPrice": 25000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "T18",
+      "categoryCode": "T",
+      "categoryName": "Túi",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1qQciRj1RZNIkZD1dnAWIaRBda2fpCfMG&sz=w1000",
+      "sixHPrice": 25000,
+      "fullDayPrice": 25000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "T19",
+      "categoryCode": "T",
+      "categoryName": "Túi",
+      "imageUrl": "https://drive.google.com/thumbnail?id=12A8D11zhrX6LR2ezmlpeCVVVvPs2r1Ss&sz=w1000",
+      "sixHPrice": 25000,
+      "fullDayPrice": 25000,
       "size": "",
       "isExcluded": false
     },
@@ -2881,160 +3056,156 @@
       "code": "VN",
       "name": "Vòng ngọc",
       "price": 15000,
-      "sourceUrl": "https://drive.google.com/uc?export=view&id=15793sLBef5fFYiArjJ4uJe1ruv2SAlqC",
-      "imageUrl": "https://drive.google.com/thumbnail?id=15793sLBef5fFYiArjJ4uJe1ruv2SAlqC&sz=w1000"
+      "imageUrl": "https://drive.google.com/thumbnail?id=15793sLBef5fFYiArjJ4uJe1ruv2SAlqC&sz=w1000",
+      "sourceUrl": "https://drive.google.com/uc?export=view&id=15793sLBef5fFYiArjJ4uJe1ruv2SAlqC"
     },
     {
       "code": "VC",
       "name": "Vòng cổ",
       "price": 10000,
-      "sourceUrl": "https://drive.google.com/uc?export=view&id=1p0Axbfe74Ewlq6zO_SL4iLXM2ZU5Z1cc",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1p0Axbfe74Ewlq6zO_SL4iLXM2ZU5Z1cc&sz=w1000"
+      "imageUrl": "https://drive.google.com/thumbnail?id=1p0Axbfe74Ewlq6zO_SL4iLXM2ZU5Z1cc&sz=w1000",
+      "sourceUrl": "https://drive.google.com/uc?export=view&id=1p0Axbfe74Ewlq6zO_SL4iLXM2ZU5Z1cc"
     },
     {
       "code": "VB",
       "name": "Vòng bạc",
       "price": 15000,
-      "sourceUrl": "https://drive.google.com/uc?export=view&id=18pGZzz0tSNp6HibX5VHVMRrMqzGE5ZSh",
-      "imageUrl": "https://drive.google.com/thumbnail?id=18pGZzz0tSNp6HibX5VHVMRrMqzGE5ZSh&sz=w1000"
+      "imageUrl": "https://drive.google.com/thumbnail?id=18pGZzz0tSNp6HibX5VHVMRrMqzGE5ZSh&sz=w1000",
+      "sourceUrl": "https://drive.google.com/uc?export=view&id=18pGZzz0tSNp6HibX5VHVMRrMqzGE5ZSh"
     },
     {
       "code": "VD",
       "name": "Voan dài",
       "price": 20000,
-      "sourceUrl": "https://drive.google.com/uc?export=view&id=1OW7t9YeL0uTfXHTYVDD6hoT4-SYf05Ad",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1OW7t9YeL0uTfXHTYVDD6hoT4-SYf05Ad&sz=w1000"
+      "imageUrl": "https://drive.google.com/thumbnail?id=1OW7t9YeL0uTfXHTYVDD6hoT4-SYf05Ad&sz=w1000",
+      "sourceUrl": "https://drive.google.com/uc?export=view&id=1OW7t9YeL0uTfXHTYVDD6hoT4-SYf05Ad"
     },
     {
       "code": "T",
       "name": "Trâm",
       "price": 10000,
-      "sourceUrl": "https://drive.google.com/uc?export=view&id=1bQk8pGnnEZ1DWkayrvykeu9qFfjDfqVQ",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1bQk8pGnnEZ1DWkayrvykeu9qFfjDfqVQ&sz=w1000"
+      "imageUrl": "https://drive.google.com/thumbnail?id=1bQk8pGnnEZ1DWkayrvykeu9qFfjDfqVQ&sz=w1000",
+      "sourceUrl": "https://drive.google.com/uc?export=view&id=1bQk8pGnnEZ1DWkayrvykeu9qFfjDfqVQ"
     },
     {
       "code": "GM",
       "name": "Quốc mộc",
       "price": 35000,
-      "sourceUrl": "https://drive.google.com/uc?export=view&id=1D5olV7nfIQ7zXKnR9nKusZf2iAqk4xWp",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1D5olV7nfIQ7zXKnR9nKusZf2iAqk4xWp&sz=w1000"
+      "imageUrl": "https://drive.google.com/thumbnail?id=1D5olV7nfIQ7zXKnR9nKusZf2iAqk4xWp&sz=w1000",
+      "sourceUrl": "https://drive.google.com/uc?export=view&id=1D5olV7nfIQ7zXKnR9nKusZf2iAqk4xWp"
     },
     {
       "code": "STK",
       "name": "Sticker",
       "price": 0,
-      "sourceUrl": "https://drive.google.com/uc?export=view&id=1t2D1aLdBvE27UHTuDo5b8PfB0qTo_4wq",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1t2D1aLdBvE27UHTuDo5b8PfB0qTo_4wq&sz=w1000"
+      "imageUrl": "https://drive.google.com/thumbnail?id=1t2D1aLdBvE27UHTuDo5b8PfB0qTo_4wq&sz=w1000",
+      "sourceUrl": "https://drive.google.com/uc?export=view&id=1t2D1aLdBvE27UHTuDo5b8PfB0qTo_4wq"
     },
     {
       "code": "Q",
       "name": "Quạt",
       "price": 10000,
-      "sourceUrl": "https://drive.google.com/uc?export=view&id=18TkXJzyVdz07fE0UAngyKr2WlL-nM116",
-      "imageUrl": "https://drive.google.com/thumbnail?id=18TkXJzyVdz07fE0UAngyKr2WlL-nM116&sz=w1000"
+      "imageUrl": "https://drive.google.com/thumbnail?id=18TkXJzyVdz07fE0UAngyKr2WlL-nM116&sz=w1000",
+      "sourceUrl": "https://drive.google.com/uc?export=view&id=18TkXJzyVdz07fE0UAngyKr2WlL-nM116"
     },
     {
       "code": "NM",
       "name": "Nước nhỏ mắt",
       "price": 50000,
-      "sourceUrl": "https://drive.google.com/uc?export=view&id=1gCTo9WY1D5FoQlN9sNS66bDiA5TmLJlg",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1gCTo9WY1D5FoQlN9sNS66bDiA5TmLJlg&sz=w1000"
+      "imageUrl": "https://drive.google.com/thumbnail?id=1gCTo9WY1D5FoQlN9sNS66bDiA5TmLJlg&sz=w1000",
+      "sourceUrl": "https://drive.google.com/uc?export=view&id=1gCTo9WY1D5FoQlN9sNS66bDiA5TmLJlg"
     },
     {
       "code": "NN",
       "name": "Nước ngâm lens",
       "price": 50000,
-      "sourceUrl": "https://drive.google.com/uc?export=view&id=1kUcTaAIkpW_Cm6Ky7ZxIa1eOcjT8tRaO",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1kUcTaAIkpW_Cm6Ky7ZxIa1eOcjT8tRaO&sz=w1000"
+      "imageUrl": "https://drive.google.com/thumbnail?id=1kUcTaAIkpW_Cm6Ky7ZxIa1eOcjT8tRaO&sz=w1000",
+      "sourceUrl": "https://drive.google.com/uc?export=view&id=1kUcTaAIkpW_Cm6Ky7ZxIa1eOcjT8tRaO"
     },
     {
       "code": "LM",
       "name": "Lens",
       "price": 69000,
-      "sourceUrl": "https://drive.google.com/uc?export=view&id=1VDT37PZQOi1T8d1IoD2N2jkBFl15VCl4",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1VDT37PZQOi1T8d1IoD2N2jkBFl15VCl4&sz=w1000"
+      "imageUrl": "https://drive.google.com/thumbnail?id=1VDT37PZQOi1T8d1IoD2N2jkBFl15VCl4&sz=w1000",
+      "sourceUrl": "https://drive.google.com/uc?export=view&id=1VDT37PZQOi1T8d1IoD2N2jkBFl15VCl4"
     },
     {
       "code": "HT",
       "name": "Hoa tai",
       "price": 5000,
-      "sourceUrl": "https://drive.google.com/uc?export=view&id=1lDqnwODYNqpm_8QEuaS_Xh0VeKkwnV81",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1lDqnwODYNqpm_8QEuaS_Xh0VeKkwnV81&sz=w1000"
+      "imageUrl": "https://drive.google.com/thumbnail?id=1lDqnwODYNqpm_8QEuaS_Xh0VeKkwnV81&sz=w1000",
+      "sourceUrl": "https://drive.google.com/uc?export=view&id=1lDqnwODYNqpm_8QEuaS_Xh0VeKkwnV81"
     },
     {
       "code": "K",
       "name": "Khăn",
       "price": 15000,
-      "sourceUrl": "https://drive.google.com/uc?export=view&id=1Ts_m2GbG7oFeWirPgCJYA2O0S-lKj6gh",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1Ts_m2GbG7oFeWirPgCJYA2O0S-lKj6gh&sz=w1000"
+      "imageUrl": "https://drive.google.com/thumbnail?id=1Ts_m2GbG7oFeWirPgCJYA2O0S-lKj6gh&sz=w1000",
+      "sourceUrl": "https://drive.google.com/uc?export=view&id=1Ts_m2GbG7oFeWirPgCJYA2O0S-lKj6gh"
     },
     {
       "code": "KT",
       "name": "Kẹp tóc, Hoa kẹp",
       "price": 5000,
-      "sourceUrl": "https://drive.google.com/uc?export=view&id=1xbijSgW5wD_cyPE4_jzajFLXSYBcD5ml",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1xbijSgW5wD_cyPE4_jzajFLXSYBcD5ml&sz=w1000"
+      "imageUrl": "https://drive.google.com/thumbnail?id=1xbijSgW5wD_cyPE4_jzajFLXSYBcD5ml&sz=w1000",
+      "sourceUrl": "https://drive.google.com/uc?export=view&id=1xbijSgW5wD_cyPE4_jzajFLXSYBcD5ml"
     },
     {
       "code": "KM",
       "name": "Kẹp mắt đeo len",
       "price": 15000,
-      "sourceUrl": "https://drive.google.com/uc?export=view&id=1E2Sf7mltY8lzAl27H9Fzr14AVAaIik-l",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1E2Sf7mltY8lzAl27H9Fzr14AVAaIik-l&sz=w1000"
+      "imageUrl": "https://drive.google.com/thumbnail?id=1E2Sf7mltY8lzAl27H9Fzr14AVAaIik-l&sz=w1000",
+      "sourceUrl": "https://drive.google.com/uc?export=view&id=1E2Sf7mltY8lzAl27H9Fzr14AVAaIik-l"
     },
     {
       "code": "HG20",
       "name": "Hoa giả 20k",
       "price": 20000,
-      "sourceUrl": "https://drive.google.com/uc?export=view&id=1G2_qkrlehhb2bxwAHqB9-daJzZF_slGZ",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1G2_qkrlehhb2bxwAHqB9-daJzZF_slGZ&sz=w1000"
+      "imageUrl": "https://drive.google.com/thumbnail?id=1G2_qkrlehhb2bxwAHqB9-daJzZF_slGZ&sz=w1000",
+      "sourceUrl": "https://drive.google.com/uc?export=view&id=1G2_qkrlehhb2bxwAHqB9-daJzZF_slGZ"
     },
     {
       "code": "HG10",
       "name": "Hoa giả 10k",
       "price": 10000,
-      "sourceUrl": "https://drive.google.com/uc?export=view&id=1QBzYDC54_9f66Rs-k0kvNzibntH-r2mL",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1QBzYDC54_9f66Rs-k0kvNzibntH-r2mL&sz=w1000"
+      "imageUrl": "https://drive.google.com/thumbnail?id=1QBzYDC54_9f66Rs-k0kvNzibntH-r2mL&sz=w1000",
+      "sourceUrl": "https://drive.google.com/uc?export=view&id=1QBzYDC54_9f66Rs-k0kvNzibntH-r2mL"
     },
     {
       "code": "CRC",
       "name": "Crunchies",
       "price": 5000,
-      "sourceUrl": "https://drive.google.com/uc?export=view&id=16Zc539_nAi1vsx1ceZkVOsDk4ddccNqu",
-      "imageUrl": "https://drive.google.com/thumbnail?id=16Zc539_nAi1vsx1ceZkVOsDk4ddccNqu&sz=w1000"
+      "imageUrl": "https://drive.google.com/thumbnail?id=16Zc539_nAi1vsx1ceZkVOsDk4ddccNqu&sz=w1000",
+      "sourceUrl": "https://drive.google.com/uc?export=view&id=16Zc539_nAi1vsx1ceZkVOsDk4ddccNqu"
     },
     {
       "code": "CV",
       "name": "Choàng Vai",
       "price": 20000,
-      "sourceUrl": "https://drive.google.com/uc?export=view&id=1O1pXwma3QyhwkrMBwkT3P7pVUagKg0bo",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1O1pXwma3QyhwkrMBwkT3P7pVUagKg0bo&sz=w1000"
+      "imageUrl": "https://drive.google.com/thumbnail?id=1O1pXwma3QyhwkrMBwkT3P7pVUagKg0bo&sz=w1000",
+      "sourceUrl": "https://drive.google.com/uc?export=view&id=1O1pXwma3QyhwkrMBwkT3P7pVUagKg0bo"
     },
     {
       "code": "CD",
       "name": "Cờ đỏ",
       "price": 0,
-      "sourceUrl": "https://drive.google.com/uc?export=view&id=1kOaFrdMU1NGxXr4AJwRjubrSB3MrjiQ_",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1kOaFrdMU1NGxXr4AJwRjubrSB3MrjiQ_&sz=w1000"
+      "imageUrl": "https://drive.google.com/thumbnail?id=1kOaFrdMU1NGxXr4AJwRjubrSB3MrjiQ_&sz=w1000",
+      "sourceUrl": "https://drive.google.com/uc?export=view&id=1kOaFrdMU1NGxXr4AJwRjubrSB3MrjiQ_"
     },
     {
       "code": "B",
       "name": "Bờm",
       "price": 5000,
-      "sourceUrl": "https://drive.google.com/uc?export=view&id=1G00rmFhmDNCkgx9Sg90-WAaK4wrGpqS5",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1G00rmFhmDNCkgx9Sg90-WAaK4wrGpqS5&sz=w1000"
+      "imageUrl": "https://drive.google.com/thumbnail?id=1G00rmFhmDNCkgx9Sg90-WAaK4wrGpqS5&sz=w1000",
+      "sourceUrl": "https://drive.google.com/uc?export=view&id=1G00rmFhmDNCkgx9Sg90-WAaK4wrGpqS5"
     }
   ],
+  "invalidAccessoryRows": [],
   "unmatchedDressProductCodes": [
     "VD57",
     "VD65",
     "VN01",
     "VN04"
   ],
-  "unknownExcludedDressCodes": [],
-  "excludedAccessoryCodes": [
-    "VA",
-    "VH",
-    "VT"
-  ]
+  "unknownExcludedDressCodes": []
 }
