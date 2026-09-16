@@ -1,5 +1,6 @@
 const PAGE_SIZE = 20;
 const EXCLUDED_ACCESSORY_CODES = new Set(["VA", "VH", "VT"]);
+const FEATURED_DRESS_CODES = ["VD34", "AD38", "AD35", "AD40", "VD82"];
 const CATEGORIES = [
   { code: "ALL", name: "Tất cả" },
   { code: "AD", name: "Áo dài" },
@@ -27,6 +28,7 @@ const imageModal = document.querySelector("#image-modal");
 const modalImage = document.querySelector("#image-modal-image");
 const modalTitle = document.querySelector("#image-modal-title");
 const modalClose = document.querySelector("#image-modal-close");
+const featuredCarouselTrack = document.querySelector("#featured-carousel-track");
 
 const createButton = (label, onClick, options = {}) => {
   const button = document.createElement("button");
@@ -70,6 +72,26 @@ const imageWithFallback = (item, label) => {
   }, { once: true });
   wrapper.append(image);
   return wrapper;
+};
+
+const createFeaturedCard = (product, index) => {
+  const card = document.createElement("article");
+  card.className = `featured-card featured-card--${index}`;
+  card.setAttribute("role", "listitem");
+
+  const image = document.createElement("img");
+  image.src = product.imageUrl;
+  image.alt = `Mẫu ${product.code}`;
+  image.loading = "eager";
+  image.referrerPolicy = "no-referrer";
+  card.append(image);
+  return card;
+};
+
+const renderFeaturedCarousel = () => {
+  const productsByCode = new Map(state.catalog.dressProducts.map((product) => [product.code, product]));
+  const featuredProducts = FEATURED_DRESS_CODES.map((code) => productsByCode.get(code)).filter((product) => product && product.imageUrl && !product.isExcluded);
+  featuredCarouselTrack.replaceChildren(...featuredProducts.map(createFeaturedCard));
 };
 
 const createDressCard = (product) => {
@@ -214,6 +236,7 @@ fetch("./catalog-data.json")
   })
   .then((catalog) => {
     state.catalog = catalog;
+    renderFeaturedCarousel();
     render();
   })
   .catch(() => {
