@@ -48,7 +48,7 @@ button { font: inherit; }
 .hero-section { display: grid; grid-template-columns: minmax(0, 1fr) minmax(16rem, 20rem); align-items: center; gap: clamp(2rem, 6vw, 6rem); padding: 3.4rem 0 3.2rem; }
 .catalog-intro { max-width: 48rem; }
 h1 { margin: 0; font-family: "Lora", Georgia, "Times New Roman", serif; font-size: clamp(2.4rem, 4.3vw, 4.3rem); font-weight: 500; line-height: 1.15; letter-spacing: -.035em; }
-.zalo-contact { display: grid; grid-template-columns: 2.8rem minmax(0, 1fr) auto; align-items: center; gap: .9rem; width: min(100%, 31rem); margin-top: 2rem; padding: .8rem .95rem; border: 1px solid #b9dfc1; border-radius: 1rem; color: var(--ink); background: rgba(255, 255, 255, .78); box-shadow: 0 .7rem 1.6rem rgba(29, 90, 58, .11); text-decoration: none; transition: transform .2s ease, box-shadow .2s ease; }
+.zalo-contact { display: grid; grid-template-columns: 2.8rem minmax(0, 1fr) auto; align-items: center; gap: .9rem; width: min(100%, 31rem); padding: .8rem .95rem; border: 1px solid #b9dfc1; border-radius: 1rem; color: var(--ink); background: rgba(255, 255, 255, .78); box-shadow: 0 .7rem 1.6rem rgba(29, 90, 58, .11); text-decoration: none; transition: transform .2s ease, box-shadow .2s ease; }
 .zalo-contact:hover { transform: translateY(-.15rem); box-shadow: 0 1rem 1.9rem rgba(29, 90, 58, .17); }
 .zalo-contact small, .zalo-contact strong { display: block; }
 .zalo-contact small { margin-bottom: .16rem; color: var(--accent-dark); font-size: .73rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
@@ -113,7 +113,6 @@ h1 { margin: 0; font-family: "Lora", Georgia, "Times New Roman", serif; font-siz
   .site-header { min-height: 3.75rem; }
   .hero-section { grid-template-columns: 1fr; gap: 1.8rem; padding: 2.5rem .3rem 2.2rem; }
   h1 { font-size: clamp(2.25rem, 11vw, 3.4rem); }
-  .zalo-contact { margin-top: 1.5rem; }
   .tiktok-video { justify-self: center; width: min(100%, 20rem); }
   .catalog-panel { padding: .75rem; border-radius: 1rem; }
   .tab-button { min-width: 6.8rem; }
