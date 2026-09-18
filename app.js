@@ -1,4 +1,5 @@
 const PAGE_SIZE = 20;
+const IMAGE_PROXY_ORIGIN = "https://media.morina.click";
 const EXCLUDED_ACCESSORY_CODES = new Set(["VA", "VH", "VT"]);
 const FEATURED_DRESS_CODES = ["VD34", "AD38", "AD35", "AD40", "VD82"];
 const CATEGORIES = [
@@ -29,6 +30,39 @@ const modalImage = document.querySelector("#image-modal-image");
 const modalTitle = document.querySelector("#image-modal-title");
 const modalClose = document.querySelector("#image-modal-close");
 const featuredCarouselTrack = document.querySelector("#featured-carousel-track");
+
+const getCachedImageUrl = (imageUrl) => {
+  if (!imageUrl) return imageUrl;
+
+  try {
+    const sourceUrl = new URL(imageUrl);
+    if (sourceUrl.hostname !== "drive.google.com" || sourceUrl.pathname !== "/thumbnail") {
+      return imageUrl;
+    }
+
+    const fileId = sourceUrl.searchParams.get("id");
+    const requestedSize = sourceUrl.searchParams.get("sz") || "w1000";
+    const size = /^w[1-9]\d{1,3}$/.test(requestedSize) ? requestedSize : "w1000";
+
+    if (!fileId || !/^[A-Za-z0-9_-]{10,200}$/.test(fileId)) return imageUrl;
+
+    return `${IMAGE_PROXY_ORIGIN}/img/${fileId}?sz=${size}`;
+  } catch {
+    return imageUrl;
+  }
+};
+
+const useCachedImageUrls = (catalog) => ({
+  ...catalog,
+  dressProducts: catalog.dressProducts.map((product) => ({
+    ...product,
+    imageUrl: getCachedImageUrl(product.imageUrl)
+  })),
+  accessories: catalog.accessories.map((accessory) => ({
+    ...accessory,
+    imageUrl: getCachedImageUrl(accessory.imageUrl)
+  }))
+});
 
 const createButton = (label, onClick, options = {}) => {
   const button = document.createElement("button");
@@ -235,7 +269,7 @@ fetch("./catalog-data.json")
     return response.json();
   })
   .then((catalog) => {
-    state.catalog = catalog;
+    state.catalog = useCachedImageUrls(catalog);
     renderFeaturedCarousel();
     render();
   })
