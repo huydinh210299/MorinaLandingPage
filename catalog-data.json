@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-09-17T10:48:06.724Z",
+  "generatedAt": "2026-10-05T02:54:10.346Z",
   "excludedDressCodes": [
     "VN01",
-    "VN04"
+    "VN04",
+    "VN09"
   ],
   "excludedAccessoryCodes": [
     "VA",
@@ -1325,8 +1326,8 @@
       "categoryCode": "VD",
       "categoryName": "Váy dài",
       "imageUrl": "https://drive.google.com/thumbnail?id=19q9FLxgpCWxZRilfPpRM-8I7Tkic-olB&sz=w1000",
-      "sixHPrice": 65000,
-      "fullDayPrice": 90000,
+      "sixHPrice": 80000,
+      "fullDayPrice": 115000,
       "size": "",
       "isExcluded": false
     },
@@ -1374,7 +1375,7 @@
       "code": "VD57",
       "categoryCode": "VD",
       "categoryName": "Váy dài",
-      "imageUrl": "",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1xy-vquOtBNWv-xYtjaysfHCa9PJKh-5s&sz=w1000",
       "sixHPrice": 70000,
       "fullDayPrice": 95000,
       "size": "",
@@ -1454,7 +1455,7 @@
       "code": "VD65",
       "categoryCode": "VD",
       "categoryName": "Váy dài",
-      "imageUrl": "",
+      "imageUrl": "https://drive.google.com/thumbnail?id=16Kjxby4Y3nYf-TomnyQA2JeoLdiQKeiw&sz=w1000",
       "sixHPrice": 85000,
       "fullDayPrice": 120000,
       "size": "",
@@ -1758,7 +1759,7 @@
       "sixHPrice": 65000,
       "fullDayPrice": 95000,
       "size": "",
-      "isExcluded": false
+      "isExcluded": true
     },
     {
       "code": "VN10",
@@ -3053,6 +3054,13 @@
   ],
   "accessories": [
     {
+      "code": "HS",
+      "name": "Hắt Sáng",
+      "price": 35000,
+      "imageUrl": "https://drive.google.com/thumbnail?id=13pceZov1nmNRki61IMUz1tCsBI6c7aYe&sz=w1000",
+      "sourceUrl": "https://drive.google.com/uc?export=view&id=13pceZov1nmNRki61IMUz1tCsBI6c7aYe"
+    },
+    {
       "code": "VN",
       "name": "Vòng ngọc",
       "price": 15000,
@@ -3200,10 +3208,10 @@
       "sourceUrl": "https://drive.google.com/uc?export=view&id=1G00rmFhmDNCkgx9Sg90-WAaK4wrGpqS5"
     }
   ],
-  "invalidAccessoryRows": [],
+  "invalidAccessoryRows": [
+    "Voan áo - VA"
+  ],
   "unmatchedDressProductCodes": [
-    "VD57",
-    "VD65",
     "VN01",
     "VN04"
   ],
