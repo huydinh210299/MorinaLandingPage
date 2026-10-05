@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-05T02:54:10.346Z",
+  "generatedAt": "2026-10-05T03:11:01.669Z",
   "excludedDressCodes": [
     "VN01",
     "VN04",
     "VN09"
   ],
   "excludedAccessoryCodes": [
-    "VA",
     "VH",
-    "VT"
+    "VT",
+    "VA"
   ],
   "dressProducts": [
     {
@@ -3208,9 +3208,7 @@
       "sourceUrl": "https://drive.google.com/uc?export=view&id=1G00rmFhmDNCkgx9Sg90-WAaK4wrGpqS5"
     }
   ],
-  "invalidAccessoryRows": [
-    "Voan áo - VA"
-  ],
+  "invalidAccessoryRows": [],
   "unmatchedDressProductCodes": [
     "VN01",
     "VN04"
