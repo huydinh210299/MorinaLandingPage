@@ -64,6 +64,68 @@ const useCachedImageUrls = (catalog) => ({
   }))
 });
 
+const parseCsvLine = (line) => {
+  const values = [];
+  let current = "";
+  let insideQuotes = false;
+
+  for (let index = 0; index < line.length; index += 1) {
+    const char = line[index];
+    const nextChar = line[index + 1];
+
+    if (char === '"' && insideQuotes && nextChar === '"') {
+      current += '"';
+      index += 1;
+      continue;
+    }
+
+    if (char === '"') {
+      insideQuotes = !insideQuotes;
+      continue;
+    }
+
+    if (char === "," && !insideQuotes) {
+      values.push(current);
+      current = "";
+      continue;
+    }
+
+    current += char;
+  }
+
+  values.push(current);
+  return values;
+};
+
+const getShoeSizeByCode = (content) => {
+  const lines = content.replace(/^\uFEFF/, "").split(/\r?\n/).filter(Boolean);
+  const headers = parseCsvLine(lines.shift() || "").map((header) => header.trim());
+  const shoeSizeByCode = new Map();
+
+  for (const line of lines) {
+    const values = parseCsvLine(line);
+    const row = headers.reduce((result, header, index) => {
+      result[header] = values[index]?.trim() || "";
+      return result;
+    }, {});
+    const productCode = (row.ma || "").toUpperCase();
+
+    if (row.phan_loai === "G" && productCode && row.size) {
+      shoeSizeByCode.set(productCode, row.size);
+    }
+  }
+
+  return shoeSizeByCode;
+};
+
+const applyShoeSizes = (catalog, shoeSizeByCode) => ({
+  ...catalog,
+  dressProducts: catalog.dressProducts.map((product) => ({
+    ...product,
+    size: product.categoryCode === "G" ? shoeSizeByCode.get(product.code) || "" : ""
+  }))
+});
+
 const createButton = (label, onClick, options = {}) => {
   const button = document.createElement("button");
   button.type = "button";
@@ -143,7 +205,16 @@ const createDressCard = (product) => {
   title.textContent = `Mã ${product.code}`;
   const details = document.createElement("div");
   details.className = "card-details";
-  details.innerHTML = `<strong>6 giờ: ${money.format(product.sixHPrice)}đ</strong><span>1 ngày: ${money.format(product.fullDayPrice)}đ</span><span>Size: ${product.size || "Chưa cập nhật"}</span>`;
+  const sixHourPrice = document.createElement("strong");
+  sixHourPrice.textContent = `6 giờ: ${money.format(product.sixHPrice)}đ`;
+  const fullDayPrice = document.createElement("span");
+  fullDayPrice.textContent = `1 ngày: ${money.format(product.fullDayPrice)}đ`;
+  details.append(sixHourPrice, fullDayPrice);
+  if (product.categoryCode === "G") {
+    const size = document.createElement("span");
+    size.textContent = `Kích cỡ: ${product.size || "Chưa cập nhật"}`;
+    details.append(size);
+  }
   body.append(category, title, details);
   card.append(body);
   return card;
@@ -263,13 +334,21 @@ tabs.forEach((tab, index) => {
   });
 });
 
-fetch("./catalog-data.json")
-  .then((response) => {
+Promise.all([
+  fetch("./catalog-data.json").then((response) => {
     if (!response.ok) throw new Error("Không thể tải danh mục.");
     return response.json();
-  })
-  .then((catalog) => {
-    state.catalog = useCachedImageUrls(catalog);
+  }),
+  fetch("./size.csv")
+    .then((response) => {
+      if (!response.ok) throw new Error("Không thể tải kích cỡ.");
+      return response.text();
+    })
+    .then(getShoeSizeByCode)
+    .catch(() => new Map())
+])
+  .then(([catalog, shoeSizeByCode]) => {
+    state.catalog = useCachedImageUrls(applyShoeSizes(catalog, shoeSizeByCode));
     renderFeaturedCarousel();
     render();
   })
