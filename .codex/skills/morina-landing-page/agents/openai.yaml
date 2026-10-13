@@ -1,0 +1,7 @@
+interface:
+  display_name: "Landing page Morina"
+  short_description: "Cập nhật catalog váy và phụ kiện tĩnh của Morina"
+  default_prompt: "Dùng $morina-landing-page để cập nhật landing page catalog Morina."
+
+policy:
+  allow_implicit_invocation: true
