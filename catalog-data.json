@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T03:11:01.669Z",
+  "generatedAt": "2026-10-20T10:33:27.870Z",
   "excludedDressCodes": [
     "VN01",
     "VN04",
@@ -462,6 +462,16 @@
       "isExcluded": false
     },
     {
+      "code": "AD46",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1qvC2vvtyCPA6TDq_dlx_mM2qAOX3Xfze&sz=w1000",
+      "sixHPrice": 70000,
+      "fullDayPrice": 95000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
       "code": "CB01",
       "categoryCode": "CB",
       "categoryName": "Chấm bi",
@@ -586,6 +596,16 @@
       "categoryCode": "CB",
       "categoryName": "Chấm bi",
       "imageUrl": "https://drive.google.com/thumbnail?id=1KrcSpgnb0w9iURVJ2EXXYfY2ARfbLLs2&sz=w1000",
+      "sixHPrice": 65000,
+      "fullDayPrice": 90000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "CB14",
+      "categoryCode": "CB",
+      "categoryName": "Chấm bi",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1OHmkdygmTleY50OHpkVGPmmJv4KjQfyp&sz=w1000",
       "sixHPrice": 65000,
       "fullDayPrice": 90000,
       "size": "",
@@ -1805,7 +1825,7 @@
       "code": "VN14",
       "categoryCode": "VN",
       "categoryName": "Váy ngắn",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1hf_o6nvxnkkpqXMou6i5VLZyYJoc-sS3&sz=w1000",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1r3ux6ySZuw9upvfywRuXBfrRJVJXGFvN&sz=w1000",
       "sixHPrice": 70000,
       "fullDayPrice": 99000,
       "size": "",
@@ -1825,7 +1845,7 @@
       "code": "VN16",
       "categoryCode": "VN",
       "categoryName": "Váy ngắn",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1IKA49EJgLEJQlVvKfhqiC1P7FGESLOw4&sz=w1000",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1ZY9qHUd8Onn9gldtuwmvuzLGqs2k9dhO&sz=w1000",
       "sixHPrice": 65000,
       "fullDayPrice": 90000,
       "size": "",
