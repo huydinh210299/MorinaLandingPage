@@ -32,3 +32,11 @@ Mỗi lần đẩy thay đổi lên nhánh `main`, Cloudflare Pages sẽ tự đ
 
 - Hình sản phẩm hiện dùng các URL ngoài. Kiểm tra quyền truy cập công khai của ảnh trước khi phát hành.
 - Sau lần triển khai đầu tiên, có thể gắn tên miền riêng trong Cloudflare Pages rồi cấu hình DNS theo hướng dẫn Cloudflare.
+
+## SEO
+
+- URL chính thức: `https://customer.morina.click/`. Canonical, Open Graph, dữ liệu có cấu trúc và sitemap dùng cùng URL này.
+- Triển khai cả `robots.txt` và `sitemap.xml` ở thư mục gốc cùng `index.html`.
+- Sau khi triển khai, xác minh website trong Google Search Console và gửi `https://customer.morina.click/sitemap.xml`; dùng Kiểm tra URL để kiểm tra trang đã xuất bản.
+- Khi đổi tên miền hoặc thông tin liên hệ, cập nhật đồng bộ metadata, JSON-LD, robots.txt và sitemap.xml.
+- Danh mục vẫn được tải bằng JavaScript từ `catalog-data.json`; chưa có trang riêng cho từng sản phẩm.
