@@ -97,10 +97,10 @@ const parseCsvLine = (line) => {
   return values;
 };
 
-const getShoeSizeByCode = (content) => {
+const getSizeByCode = (content) => {
   const lines = content.replace(/^\uFEFF/, "").split(/\r?\n/).filter(Boolean);
   const headers = parseCsvLine(lines.shift() || "").map((header) => header.trim());
-  const shoeSizeByCode = new Map();
+  const sizeByCode = new Map();
 
   for (const line of lines) {
     const values = parseCsvLine(line);
@@ -110,19 +110,19 @@ const getShoeSizeByCode = (content) => {
     }, {});
     const productCode = (row.ma || "").toUpperCase();
 
-    if (row.phan_loai === "G" && productCode && row.size) {
-      shoeSizeByCode.set(productCode, row.size);
+    if (productCode && row.size) {
+      sizeByCode.set(productCode, row.size);
     }
   }
 
-  return shoeSizeByCode;
+  return sizeByCode;
 };
 
-const applyShoeSizes = (catalog, shoeSizeByCode) => ({
+const applySizes = (catalog, sizeByCode) => ({
   ...catalog,
   dressProducts: catalog.dressProducts.map((product) => ({
     ...product,
-    size: product.categoryCode === "G" ? shoeSizeByCode.get(product.code) || "" : ""
+    size: sizeByCode.get(product.code) || product.size || ""
   }))
 });
 
@@ -210,7 +210,7 @@ const createDressCard = (product) => {
   const fullDayPrice = document.createElement("span");
   fullDayPrice.textContent = `1 ngày: ${money.format(product.fullDayPrice)}đ`;
   details.append(sixHourPrice, fullDayPrice);
-  if (product.categoryCode === "G") {
+  if (product.size || product.categoryCode === "G") {
     const size = document.createElement("span");
     size.textContent = `Kích cỡ: ${product.size || "Chưa cập nhật"}`;
     details.append(size);
@@ -344,11 +344,11 @@ Promise.all([
       if (!response.ok) throw new Error("Không thể tải kích cỡ.");
       return response.text();
     })
-    .then(getShoeSizeByCode)
+    .then(getSizeByCode)
     .catch(() => new Map())
 ])
-  .then(([catalog, shoeSizeByCode]) => {
-    state.catalog = useCachedImageUrls(applyShoeSizes(catalog, shoeSizeByCode));
+  .then(([catalog, sizeByCode]) => {
+    state.catalog = useCachedImageUrls(applySizes(catalog, sizeByCode));
     renderFeaturedCarousel();
     render();
   })
