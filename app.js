@@ -210,7 +210,7 @@ const createDressCard = (product) => {
   const fullDayPrice = document.createElement("span");
   fullDayPrice.textContent = `1 ngày: ${money.format(product.fullDayPrice)}đ`;
   details.append(sixHourPrice, fullDayPrice);
-  if (product.size || product.categoryCode === "G") {
+  if (product.categoryCode === "G") {
     const size = document.createElement("span");
     size.textContent = `Kích cỡ: ${product.size || "Chưa cập nhật"}`;
     details.append(size);
