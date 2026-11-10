@@ -123,6 +123,18 @@ button { font: inherit; }
 .image-modal-close:hover { background: var(--deep); }
 .image-modal-close:focus-visible { outline: 3px solid #b4efc2; outline-offset: 2px; }
 
+.lens-promo { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); align-items: center; overflow: hidden; margin-bottom: 2rem; border: 1px solid var(--border); border-radius: 1.35rem; background: #edf5eb; }
+.lens-promo-image { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; }
+.lens-promo-content { min-width: 0; padding: clamp(1.5rem, 3vw, 3rem); }
+.lens-eyebrow { margin: 0 0 .75rem; color: var(--accent-dark); font-size: .75rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+.lens-promo h2 { margin: 0; font-family: "Lora", Georgia, serif; font-size: clamp(2rem, 3.5vw, 3rem); line-height: 1.15; }
+.lens-tagline { margin: .75rem 0; font-size: clamp(1rem, 1.5vw, 1.2rem); font-weight: 600; line-height: 1.5; }
+.lens-description { max-width: 34rem; margin: 0 0 1.5rem; color: #4f6959; font-size: .9rem; line-height: 1.8; }
+.lens-shop-link { display: inline-flex; align-items: center; justify-content: center; gap: .7rem; max-width: 100%; min-height: 3rem; padding: .85rem 1.15rem; border-radius: .75rem; color: #fff; background: #c43d1c; font-size: .88rem; font-weight: 700; line-height: 1.5; text-decoration: none; transition: background .2s ease; }
+.lens-shop-link svg { flex-shrink: 0; }
+.lens-shop-link:hover { background: #a82e12; }
+.lens-shop-link:focus-visible { outline: 3px solid var(--accent-dark); outline-offset: 4px; }
+
 @media (max-width: 980px) {
   .hero-section { gap: clamp(1.25rem, 3vw, 2.5rem); }
   .featured-carousel-track { height: clamp(17rem, 30vw, 21rem); }
@@ -130,6 +142,9 @@ button { font: inherit; }
   .catalog-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 680px) {
+  .lens-promo { grid-template-columns: 1fr; margin-bottom: 1.5rem; border-radius: 1rem; }
+  .lens-promo-content { padding: 1.4rem; }
+  .lens-shop-link { width: 100%; padding-inline: .8rem; text-align: center; }
   .page-shell { width: min(100% - 1rem, 1440px); padding-top: .4rem; }
   .site-header { min-height: 3.75rem; }
   .hero-section { grid-template-columns: 1fr; gap: 1.8rem; padding: 2rem .3rem 2.2rem; }

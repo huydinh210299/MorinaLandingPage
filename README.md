@@ -30,6 +30,7 @@ Mỗi lần đẩy thay đổi lên nhánh `main`, Cloudflare Pages sẽ tự đ
 
 ## Lưu ý
 
+- Mục Morina Lens dùng ảnh cục bộ `assets/morina-lens-dreammoon.png` do chủ shop cung cấp và nút liên kết trực tiếp đến shop `morina.store`, giữ nguyên các tham số trong URL Shopee đã cung cấp. Liên kết HTTPS cho phép hệ điều hành mở app Shopee khi đã cài và cho phép mở liên kết; nếu không, shop mở trên trình duyệt. Cần kiểm tra việc chuyển sang app trên điện thoại thật vì phụ thuộc cài đặt hệ điều hành và trình duyệt.
 - Hình sản phẩm hiện dùng các URL ngoài. Kiểm tra quyền truy cập công khai của ảnh trước khi phát hành.
 - Sau lần triển khai đầu tiên, có thể gắn tên miền riêng trong Cloudflare Pages rồi cấu hình DNS theo hướng dẫn Cloudflare.
 
