@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T08:45:52.643Z",
+  "generatedAt": "2026-11-13T13:33:32.475Z",
   "excludedDressCodes": [
     "VN01",
     "VN04",
@@ -679,6 +679,56 @@
       "sixHPrice": 90000,
       "fullDayPrice": 115000,
       "size": "S",
+      "isExcluded": false
+    },
+    {
+      "code": "AD68",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=19I5Bs0komQNtotTQs8xWqmvDpktnb4Rs&sz=w1000",
+      "sixHPrice": 100000,
+      "fullDayPrice": 125000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD69",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=16Cwsbp6yHoOLAODbnflqoEPb2IkWF8nO&sz=w1000",
+      "sixHPrice": 125000,
+      "fullDayPrice": 155000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD70",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1RarJUt6P2WiC6_HmDYnDTfsNH_8-_VRz&sz=w1000",
+      "sixHPrice": 100000,
+      "fullDayPrice": 125000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD71",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1JSE7LtrVmd4TVYrZcfa-XQYq0dZryjxy&sz=w1000",
+      "sixHPrice": 100000,
+      "fullDayPrice": 125000,
+      "size": "",
+      "isExcluded": false
+    },
+    {
+      "code": "AD72",
+      "categoryCode": "AD",
+      "categoryName": "Áo dài - Áo yếm",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1hYAu0wwepJcMkjdXCDwTuLNZvnt4bwsb&sz=w1000",
+      "sixHPrice": 85000,
+      "fullDayPrice": 110000,
+      "size": "",
       "isExcluded": false
     },
     {
